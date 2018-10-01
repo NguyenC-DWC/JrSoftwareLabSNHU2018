@@ -21,7 +21,7 @@ namespace Financing
     {
         public Login()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private void txtBxuserName_TextChanged(object sender, TextChangedEventArgs e)

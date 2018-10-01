@@ -11,7 +11,7 @@
         SizeToContent="WidthAndHeight" 
         WindowStyle="None"
                  
-        ResizeMode="NoResize" 
+        ResizeMode="NoResize"  
 
         WindowStartupLocation="CenterScreen">
     <Grid Height="171" Width="359">
