@@ -1,0 +1,20 @@
+﻿<Window x:Class="Financing.Account.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Financing.Account"
+        mc:Ignorable="d"
+        Title="Create an Account" Height="382.365" Width="300" Background="White">
+    
+    <Grid Background="#FF7D00FF">
+        <Image Source="/Financing;component/Images/bImage.png" Stretch="UniformToFill" Grid.ColumnSpan="2" />
+        <Button x:Name="Submit" Content="Submit" HorizontalAlignment="Left" Margin="21,288,0,0" VerticalAlignment="Top" Width="250" Height="43" Background="White" FontFamily="Verdana" FontSize="20" FontWeight="ExtraBold" Foreground="#FFB320CD"/>
+        <Label x:Name="Email" HorizontalAlignment="Left" Height="35" Margin="10,50,0,0" Width="80" FontFamily="Verdana" FontWeight="ExtraBold" Foreground="#FF7C168E" BorderBrush="{x:Null}" Background="{x:Null}" HorizontalContentAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center" FontSize="18" Content="Email:"/>
+        <TextBox x:Name="Password" HorizontalAlignment="Left" Height="35" Margin="10,125,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="112" FontFamily="Verdana" FontWeight="ExtraBold" Foreground="#FF7C168E" TextChanged="textBox_TextChanged" FontSize="18" BorderBrush="{x:Null}" Background="{x:Null}" SelectionBrush="{x:Null}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="Confirm_password" HorizontalAlignment="Left" Height="49" Margin="10,200,0,0" TextWrapping="Wrap" Text="Confirm Password:" VerticalAlignment="Top" Width="112" FontFamily="Verdana" FontWeight="ExtraBold" Foreground="#FF7C168E" TextChanged="textBox_TextChanged" SelectionBrush="{x:Null}" Background="{x:Null}" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="Email_box" HorizontalAlignment="Left" Height="35" Margin="151,50,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Password_box" HorizontalAlignment="Left" Height="35" Margin="151,125,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Confirm_box" HorizontalAlignment="Left" Height="35" Margin="151,198,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>

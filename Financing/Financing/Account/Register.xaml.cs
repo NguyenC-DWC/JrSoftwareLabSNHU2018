@@ -12,19 +12,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Financing
+namespace Financing.Account
 {
     /// <summary>
-    /// Interaction logic for Login.xaml
+    /// Interaction logic for Register.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class Register : Window
     {
-        public Login()
+        public Register()
         {
-            InitializeComponent(); 
+            InitializeComponent();
         }
 
-        private void txtBxuserName_TextChanged(object sender, TextChangedEventArgs e)
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
